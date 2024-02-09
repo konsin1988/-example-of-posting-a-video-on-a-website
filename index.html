@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video from youtube</title>
+    <link rel="stylesheet" href="./public/css/main.min.css" />
+    <script src="./public/js/main-min.js"></script>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./public/img/favicon.ico"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="aside"></div>
+      <div class="main">
+        <div class="video_box">
+          <div class="video_cover" id="video_1">
+            <img src="./public/img/video_cover.jpg" alt="video with daughter" />
+            <div class="video_icon">
+              <img src="./public/img/video_button.png" alt="" />
+            </div>
+          </div>
+          <h2>Video with my daughter</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            nemo maiores mollitia quos doloremque ratione, id tempora quidem
+            totam possimus, facere autem ipsam, temporibus illo alias quo quas
+            voluptates praesentium.
+          </p>
+        </div>
+        <div class="video_box">
+          <h2>Video from Halloween</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            nemo maiores mollitia quos doloremque ratione, id tempora quidem
+            totam possimus, facere autem ipsam, temporibus illo alias quo quas
+            voluptates praesentium.
+          </p>
+          <div class="video_cover" id="video_2">
+            <img
+              src="./public/img/video_2_cover.jpg"
+              alt="video from halloween"
+            />
+            <div class="video_icon">
+              <img src="./public/img/video_button.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="aside"></div>
+    </section>
+
+    <div class="modal_video display_none">
+      <div id="close_button">
+        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm1.41-1.41A8 8 0 1 0 15.66 4.34 8 8 0 0 0 4.34 15.66zm9.9-8.49L11.41 10l2.83 2.83-1.41 1.41L10 11.41l-2.83 2.83-1.41-1.41L8.59 10 5.76 7.17l1.41-1.41L10 8.59l2.83-2.83 1.41 1.41z"
+          />
+        </svg>
+      </div>
+      <div id="video_modal">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/3A63zTD7seM?si=s2fLib1MK6ib7Fg6"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </body>
+</html>
