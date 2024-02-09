@@ -40,6 +40,7 @@ section .main {
 p {
   color: #454d66;
   text-shadow: 5px 5px 5px #dad873;
+  user-select: none;
 }
 .video_cover {
   position: relative;
