@@ -20,7 +20,7 @@ gulp.task("minjs", async function () {
 });
 
 // Watch
-gulp.task("watchAll", function () {
+gulp.task("watchAll", async function () {
   gulp.watch("./app/css/*.scss", gulp.series("mincss"));
   gulp.watch("./app/js/*.js", gulp.series("minjs"));
 });
